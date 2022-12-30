@@ -8,4 +8,8 @@
  6.git commit -m "first commit"
  7.git remote add origin https://github.com/ymyy32/test2.git
  8.git push -u origin master
+ //发生错误 git pull --rebase origin master
+//远程库与本地库不一致造成的，该命令的意思是把远程库中的更新合并到（pull=fetch+merge）
+//本地库中，–-rebase的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。
  提交完成
+ 测试修改提交
